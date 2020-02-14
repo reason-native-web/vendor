@@ -1,5 +1,5 @@
 {
-  "checksum": "3d348b0adfab1909239f6d055b02614f",
+  "checksum": "9e1e1821df49befa2fd4f6e737aa36eb",
   "root": "h1@link-dev:./package.json",
   "node": {
     "ocaml@4.9.0@d41d8cd9": {
@@ -31,6 +31,7 @@
         "@opam/faraday@opam:0.7.0@6d4772f6",
         "@opam/dune@opam:2.2.0@9f6b1c70",
         "@opam/bigstringaf@opam:0.6.0@971764fa",
+        "@opam/bigarray-compat@opam:1.0.0@1faefa97",
         "@opam/angstrom@opam:0.12.1@02015bad"
       ],
       "devDependencies": []
