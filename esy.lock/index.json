@@ -1,0 +1,269 @@
+{
+  "checksum": "3d348b0adfab1909239f6d055b02614f",
+  "root": "h1@link-dev:./package.json",
+  "node": {
+    "ocaml@4.9.0@d41d8cd9": {
+      "id": "ocaml@4.9.0@d41d8cd9",
+      "name": "ocaml",
+      "version": "4.9.0",
+      "source": {
+        "type": "install",
+        "source": [
+          "archive:https://registry.npmjs.org/ocaml/-/ocaml-4.9.0.tgz#sha1:96d91599d28c6721ea5804f357268da247963683"
+        ]
+      },
+      "overrides": [],
+      "dependencies": [],
+      "devDependencies": []
+    },
+    "h1@link-dev:./package.json": {
+      "id": "h1@link-dev:./package.json",
+      "name": "h1",
+      "version": "link-dev:./package.json",
+      "source": {
+        "type": "link-dev",
+        "path": ".",
+        "manifest": "package.json"
+      },
+      "overrides": [],
+      "dependencies": [
+        "ocaml@4.9.0@d41d8cd9", "@opam/result@opam:1.4@dc720aef",
+        "@opam/faraday@opam:0.7.0@6d4772f6",
+        "@opam/dune@opam:2.2.0@9f6b1c70",
+        "@opam/bigstringaf@opam:0.6.0@971764fa",
+        "@opam/angstrom@opam:0.12.1@02015bad"
+      ],
+      "devDependencies": []
+    },
+    "@opam/result@opam:1.4@dc720aef": {
+      "id": "@opam/result@opam:1.4@dc720aef",
+      "name": "@opam/result",
+      "version": "opam:1.4",
+      "source": {
+        "type": "install",
+        "source": [
+          "archive:https://opam.ocaml.org/cache/md5/d3/d3162dbc501a2af65c8c71e0866541da#md5:d3162dbc501a2af65c8c71e0866541da",
+          "archive:https://github.com/janestreet/result/archive/1.4.tar.gz#md5:d3162dbc501a2af65c8c71e0866541da"
+        ],
+        "opam": {
+          "name": "result",
+          "version": "1.4",
+          "path": "esy.lock/opam/result.1.4"
+        }
+      },
+      "overrides": [],
+      "dependencies": [
+        "ocaml@4.9.0@d41d8cd9", "@opam/dune@opam:2.2.0@9f6b1c70",
+        "@esy-ocaml/substs@0.0.1@d41d8cd9"
+      ],
+      "devDependencies": [
+        "ocaml@4.9.0@d41d8cd9", "@opam/dune@opam:2.2.0@9f6b1c70"
+      ]
+    },
+    "@opam/jbuilder@opam:1.0+beta20.2@053ddcf2": {
+      "id": "@opam/jbuilder@opam:1.0+beta20.2@053ddcf2",
+      "name": "@opam/jbuilder",
+      "version": "opam:1.0+beta20.2",
+      "source": {
+        "type": "install",
+        "source": [
+          "archive:https://opam.ocaml.org/cache/md5/fb/fbe8c3b1facb206cac3fb8932b5dd5d9#md5:fbe8c3b1facb206cac3fb8932b5dd5d9",
+          "archive:https://github.com/ocaml/dune/releases/download/1.0%2Bbeta20.2/jbuilder-1.0+beta20.2.tbz#md5:fbe8c3b1facb206cac3fb8932b5dd5d9"
+        ],
+        "opam": {
+          "name": "jbuilder",
+          "version": "1.0+beta20.2",
+          "path": "esy.lock/opam/jbuilder.1.0+beta20.2"
+        }
+      },
+      "overrides": [],
+      "dependencies": [
+        "ocaml@4.9.0@d41d8cd9", "@esy-ocaml/substs@0.0.1@d41d8cd9"
+      ],
+      "devDependencies": [ "ocaml@4.9.0@d41d8cd9" ]
+    },
+    "@opam/faraday@opam:0.7.0@6d4772f6": {
+      "id": "@opam/faraday@opam:0.7.0@6d4772f6",
+      "name": "@opam/faraday",
+      "version": "opam:0.7.0",
+      "source": {
+        "type": "install",
+        "source": [
+          "archive:https://opam.ocaml.org/cache/md5/d3/d37a5f1663570f9c75f0b4b4cdb7ec9c#md5:d37a5f1663570f9c75f0b4b4cdb7ec9c",
+          "archive:https://github.com/inhabitedtype/faraday/archive/0.7.0.tar.gz#md5:d37a5f1663570f9c75f0b4b4cdb7ec9c"
+        ],
+        "opam": {
+          "name": "faraday",
+          "version": "0.7.0",
+          "path": "esy.lock/opam/faraday.0.7.0"
+        }
+      },
+      "overrides": [],
+      "dependencies": [
+        "ocaml@4.9.0@d41d8cd9", "@opam/jbuilder@opam:1.0+beta20.2@053ddcf2",
+        "@opam/bigstringaf@opam:0.6.0@971764fa",
+        "@esy-ocaml/substs@0.0.1@d41d8cd9"
+      ],
+      "devDependencies": [
+        "ocaml@4.9.0@d41d8cd9", "@opam/jbuilder@opam:1.0+beta20.2@053ddcf2",
+        "@opam/bigstringaf@opam:0.6.0@971764fa"
+      ]
+    },
+    "@opam/dune@opam:2.2.0@9f6b1c70": {
+      "id": "@opam/dune@opam:2.2.0@9f6b1c70",
+      "name": "@opam/dune",
+      "version": "opam:2.2.0",
+      "source": {
+        "type": "install",
+        "source": [
+          "archive:https://opam.ocaml.org/cache/sha256/ab/ab5eb970c21641a6f3034448218cdc1c138512b906c7d2f67fea41ecd98d8bf4#sha256:ab5eb970c21641a6f3034448218cdc1c138512b906c7d2f67fea41ecd98d8bf4",
+          "archive:https://github.com/ocaml/dune/releases/download/2.2.0/dune-2.2.0.tbz#sha256:ab5eb970c21641a6f3034448218cdc1c138512b906c7d2f67fea41ecd98d8bf4"
+        ],
+        "opam": {
+          "name": "dune",
+          "version": "2.2.0",
+          "path": "esy.lock/opam/dune.2.2.0"
+        }
+      },
+      "overrides": [],
+      "dependencies": [
+        "ocaml@4.9.0@d41d8cd9", "@opam/base-unix@opam:base@87d0b2eb",
+        "@opam/base-threads@opam:base@36803084",
+        "@esy-ocaml/substs@0.0.1@d41d8cd9"
+      ],
+      "devDependencies": [
+        "ocaml@4.9.0@d41d8cd9", "@opam/base-unix@opam:base@87d0b2eb",
+        "@opam/base-threads@opam:base@36803084"
+      ]
+    },
+    "@opam/bigstringaf@opam:0.6.0@971764fa": {
+      "id": "@opam/bigstringaf@opam:0.6.0@971764fa",
+      "name": "@opam/bigstringaf",
+      "version": "opam:0.6.0",
+      "source": {
+        "type": "install",
+        "source": [
+          "archive:https://opam.ocaml.org/cache/md5/39/390382a1ac34e129f7b7f49540d94c9a#md5:390382a1ac34e129f7b7f49540d94c9a",
+          "archive:https://github.com/inhabitedtype/bigstringaf/archive/0.6.0.tar.gz#md5:390382a1ac34e129f7b7f49540d94c9a"
+        ],
+        "opam": {
+          "name": "bigstringaf",
+          "version": "0.6.0",
+          "path": "esy.lock/opam/bigstringaf.0.6.0"
+        }
+      },
+      "overrides": [],
+      "dependencies": [
+        "ocaml@4.9.0@d41d8cd9", "@opam/dune@opam:2.2.0@9f6b1c70",
+        "@opam/bigarray-compat@opam:1.0.0@1faefa97",
+        "@esy-ocaml/substs@0.0.1@d41d8cd9"
+      ],
+      "devDependencies": [
+        "ocaml@4.9.0@d41d8cd9", "@opam/dune@opam:2.2.0@9f6b1c70",
+        "@opam/bigarray-compat@opam:1.0.0@1faefa97"
+      ]
+    },
+    "@opam/bigarray-compat@opam:1.0.0@1faefa97": {
+      "id": "@opam/bigarray-compat@opam:1.0.0@1faefa97",
+      "name": "@opam/bigarray-compat",
+      "version": "opam:1.0.0",
+      "source": {
+        "type": "install",
+        "source": [
+          "archive:https://opam.ocaml.org/cache/md5/1c/1cc7c25382a8900bada34aadfd66632e#md5:1cc7c25382a8900bada34aadfd66632e",
+          "archive:https://github.com/mirage/bigarray-compat/archive/v1.0.0.tar.gz#md5:1cc7c25382a8900bada34aadfd66632e"
+        ],
+        "opam": {
+          "name": "bigarray-compat",
+          "version": "1.0.0",
+          "path": "esy.lock/opam/bigarray-compat.1.0.0"
+        }
+      },
+      "overrides": [],
+      "dependencies": [
+        "ocaml@4.9.0@d41d8cd9", "@opam/dune@opam:2.2.0@9f6b1c70",
+        "@esy-ocaml/substs@0.0.1@d41d8cd9"
+      ],
+      "devDependencies": [
+        "ocaml@4.9.0@d41d8cd9", "@opam/dune@opam:2.2.0@9f6b1c70"
+      ]
+    },
+    "@opam/base-unix@opam:base@87d0b2eb": {
+      "id": "@opam/base-unix@opam:base@87d0b2eb",
+      "name": "@opam/base-unix",
+      "version": "opam:base",
+      "source": {
+        "type": "install",
+        "source": [ "no-source:" ],
+        "opam": {
+          "name": "base-unix",
+          "version": "base",
+          "path": "esy.lock/opam/base-unix.base"
+        }
+      },
+      "overrides": [],
+      "dependencies": [ "@esy-ocaml/substs@0.0.1@d41d8cd9" ],
+      "devDependencies": []
+    },
+    "@opam/base-threads@opam:base@36803084": {
+      "id": "@opam/base-threads@opam:base@36803084",
+      "name": "@opam/base-threads",
+      "version": "opam:base",
+      "source": {
+        "type": "install",
+        "source": [ "no-source:" ],
+        "opam": {
+          "name": "base-threads",
+          "version": "base",
+          "path": "esy.lock/opam/base-threads.base"
+        }
+      },
+      "overrides": [],
+      "dependencies": [ "@esy-ocaml/substs@0.0.1@d41d8cd9" ],
+      "devDependencies": []
+    },
+    "@opam/angstrom@opam:0.12.1@02015bad": {
+      "id": "@opam/angstrom@opam:0.12.1@02015bad",
+      "name": "@opam/angstrom",
+      "version": "opam:0.12.1",
+      "source": {
+        "type": "install",
+        "source": [
+          "archive:https://opam.ocaml.org/cache/md5/b2/b253d5bf5468a19408689523458cfe81#md5:b253d5bf5468a19408689523458cfe81",
+          "archive:https://github.com/inhabitedtype/angstrom/archive/0.12.1.tar.gz#md5:b253d5bf5468a19408689523458cfe81"
+        ],
+        "opam": {
+          "name": "angstrom",
+          "version": "0.12.1",
+          "path": "esy.lock/opam/angstrom.0.12.1"
+        }
+      },
+      "overrides": [],
+      "dependencies": [
+        "ocaml@4.9.0@d41d8cd9", "@opam/result@opam:1.4@dc720aef",
+        "@opam/dune@opam:2.2.0@9f6b1c70",
+        "@opam/bigstringaf@opam:0.6.0@971764fa",
+        "@esy-ocaml/substs@0.0.1@d41d8cd9"
+      ],
+      "devDependencies": [
+        "ocaml@4.9.0@d41d8cd9", "@opam/result@opam:1.4@dc720aef",
+        "@opam/dune@opam:2.2.0@9f6b1c70",
+        "@opam/bigstringaf@opam:0.6.0@971764fa"
+      ]
+    },
+    "@esy-ocaml/substs@0.0.1@d41d8cd9": {
+      "id": "@esy-ocaml/substs@0.0.1@d41d8cd9",
+      "name": "@esy-ocaml/substs",
+      "version": "0.0.1",
+      "source": {
+        "type": "install",
+        "source": [
+          "archive:https://registry.npmjs.org/@esy-ocaml/substs/-/substs-0.0.1.tgz#sha1:59ebdbbaedcda123fc7ed8fb2b302b7d819e9a46"
+        ]
+      },
+      "overrides": [],
+      "dependencies": [],
+      "devDependencies": []
+    }
+  }
+}

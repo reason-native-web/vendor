@@ -1,0 +1,19 @@
+{
+  "name": "h1",
+  "version": "1.0.0",
+  "license": "BSD-3-clause",
+  "homepage": "https://github.com/reason-native-web/h1",
+  "bugs": { "url": "https://github.com/reason-native-web/h1/issues" },
+  "esy": {
+    "build": "dune build -p httpaf"
+  },
+  "dependencies": {
+    "ocaml": ">=4.3.0",
+    "@opam/dune": ">=1.5.0",
+    "@opam/bigstringaf": ">=0.4.0",
+    "@opam/bigarray-compat": "*",
+    "@opam/angstrom": ">=0.9.0",
+    "@opam/faraday": ">=0.6.1",
+    "@opam/result": "*"
+  }
+}
