@@ -5,13 +5,13 @@
   "homepage": "https://github.com/reason-native-web/h1",
   "bugs": { "url": "https://github.com/reason-native-web/h1/issues" },
   "esy": {
-    "build": "dune build -p httpaf"
+    "build": "dune build --only-packages=httpaf --profile=release -j 4 --root=./httpaf",
+    "install": "esy-installer #{self.target_dir / 'default' / 'httpaf.install'}"
   },
   "dependencies": {
     "ocaml": ">=4.3.0",
     "@opam/dune": ">=1.5.0",
     "@opam/bigstringaf": ">=0.4.0",
-    "@opam/bigarray-compat": "*",
     "@opam/angstrom": ">=0.9.0",
     "@opam/faraday": ">=0.6.1",
     "@opam/result": "*"
