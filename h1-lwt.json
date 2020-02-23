@@ -1,9 +1,9 @@
 {
-  "name": "h1-lwt",
+  "name": "@reason-native-web/h1-lwt",
   "version": "1.0.0",
   "license": "BSD-3-clause",
-  "homepage": "https://github.com/reason-native-web/h1",
-  "bugs": { "url": "https://github.com/reason-native-web/h1/issues" },
+  "homepage": "https://github.com/reason-native-web/vendor",
+  "bugs": { "url": "https://github.com/reason-native-web/vendor/issues" },
   "esy": {
     "build": "dune build --only-packages=httpaf-lwt --root=./httpaf --profile=release -j 4",
     "install": "esy-installer #{self.target_dir / 'default' / 'httpaf-lwt.install'}"
@@ -11,10 +11,10 @@
   "dependencies": {
     "ocaml": ">=4.3.0",
     "@opam/dune": ">=1.5.0",
-    "h1": "~1.0.0",
+    "@reason-native-web/h1": "~1.0.0",
     "@opam/lwt": "*"
   },
   "resolutions": {
-    "h1": "link:./httpaf.json"
+    "@reason-native-web/h1": "link:./h1.json"
   }
 }

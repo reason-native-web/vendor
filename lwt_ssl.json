@@ -1,0 +1,21 @@
+{
+  "name": "@reason-native-web/lwt_ssl",
+  "version": "1.1.3",
+  "license": "LGPL with OpenSSL linking exception",
+  "homepage": "https://github.com/reason-native-web/vendor",
+  "bugs": { "url": "https://github.com/reason-native-web/vendor/issues" },
+  "esy": {
+    "build": "dune build --only-packages=lwt_ssl --profile=release -j 4 --root=./lwt_ssl",
+    "install": "esy-installer #{self.target_dir / 'default' / 'lwt_ssl.install'}"
+  },
+  "dependencies": {
+    "ocaml": "*",
+    "@opam/dune": ">=2.0.0",
+    "@opam/base-unix": "*",
+    "@opam/lwt": ">=3.0.0",
+    "@reason-native-web/ssl": "0.5.9.dev.1"
+  },
+  "resolutions": {
+    "@reason-native-web/ssl": "./ssl.json"
+  }
+}

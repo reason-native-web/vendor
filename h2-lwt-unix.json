@@ -1,0 +1,26 @@
+{
+  "name": "@reason-native-web/h2-lwt-unix",
+  "version": "0.5.0",
+  "license": "BSD-3-clause",
+  "homepage": "https://github.com/reason-native-web/vendor",
+  "bugs": { "url": "https://github.com/reason-native-web/vendor/issues" },
+  "esy": {
+    "build": "dune build --only-packages=h2-lwt-unix --profile=release -j 4 --root=./ocaml-h2",
+    "install": "esy-installer #{self.target_dir / 'default' / 'h2-lwt-unix.install'}"
+  },
+  "dependencies": {
+    "ocaml": ">=4.6.0",
+    "@opam/faraday-lwt-unix": "*",
+    "@reason-native-web/h2-lwt": "0.5.0",
+    "@opam/dune": ">=1.5.0",
+    "@reason-native-web/lwt_ssl": "*",
+    "@opam/lwt": "*"
+  },
+  "resolutions": {
+    "@reason-native-web/h2-lwt": "link:./h2-lwt.json",
+    "@reason-native-web/h2": "link:./h2.json",
+    "@reason-native-web/h1": "link:./h1.json",
+    "@reason-native-web/lwt_ssl": "link:./lwt_ssl.json",
+    "@reason-native-web/ssl": "link:./ssl.json"
+  }
+}
