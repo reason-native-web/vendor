@@ -11,8 +11,8 @@
   "dependencies": {
     "ocaml": ">=4.3.0",
     "@opam/dune": ">=1.5.0",
-    "h1": ">=1.0.0",
-    "h1-lwt": ">=1.0.0",
+    "h1": "~1.0.0",
+    "h1-lwt": "~1.0.0",
     "@opam/lwt": "*",
     "@opam/faraday-lwt-unix": "*"
   },
