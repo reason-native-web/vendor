@@ -13,9 +13,5 @@
     "@reason-native-web/h2": "0.5.0",
     "@opam/dune": ">=1.5.0",
     "@opam/lwt": "*"
-  },
-  "resolutions": {
-    "@reason-native-web/h2": "link:./h2.json",
-    "@reason-native-web/h1": "link:./h1.json"
   }
 }

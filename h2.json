@@ -18,8 +18,5 @@
     "@opam/psq": "*",
     "@opam/hpack": "*",
     "@reason-native-web/h1": "*"
-  },
-  "resolutions": {
-    "@reason-native-web/h1": "link:./h1.json"
   }
 }

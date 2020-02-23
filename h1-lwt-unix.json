@@ -11,14 +11,9 @@
   "dependencies": {
     "ocaml": ">=4.3.0",
     "@opam/dune": ">=1.5.0",
-    "@reason-native-web/h1-lwt": "~1.0.0",
+    "@reason-native-web/h1-lwt": "1.0.0",
     "@opam/lwt": "*",
     "@reason-native-web/lwt_ssl": "*",
     "@opam/faraday-lwt-unix": "*"
-  },
-  "resolutions": {
-    "@reason-native-web/h1": "link:./h1.json",
-    "@reason-native-web/h1-lwt": "link:./h1-lwt.json",
-    "@reason-native-web/lwt_ssl": "link:./lwt_ssl.json"
   }
 }
