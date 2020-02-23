@@ -12,6 +12,9 @@
       "LDFLAGS": "-L$LD_LIBRARY_PATH $LDFLAGS"
     }
   },
+  "files": [
+    "ocaml-ssl"
+  ],
   "dependencies": {
     "ocaml": ">=4.2.0",
     "@opam/dune": ">=2.0.0",

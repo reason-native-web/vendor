@@ -16,6 +16,10 @@
     "@opam/dune": ">=2.0.0",
     "@opam/base-unix": "*",
     "@opam/lwt": ">=3.0.0",
+<<<<<<< HEAD
     "@reason-native-web/ssl": ">=0.5.0"
+=======
+    "@reason-native-web/ssl": "0.5.9-dev.1"
+>>>>>>> Fix alpha versions and add publish script
   }
 }

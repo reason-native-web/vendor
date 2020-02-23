@@ -8,6 +8,9 @@
     "build": "dune build --only-packages=httpaf-lwt --root=./httpaf --profile=release -j 4",
     "install": "esy-installer #{self.target_dir / 'default' / 'httpaf-lwt.install'}"
   },
+  "files": [
+    "httpaf"
+  ],
   "dependencies": {
     "ocaml": ">=4.3.0",
     "@opam/dune": ">=1.5.0",
