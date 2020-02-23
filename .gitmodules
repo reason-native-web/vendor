@@ -1,3 +1,15 @@
 [submodule "httpaf"]
 	path = httpaf
 	url = https://github.com/anmonteiro/httpaf.git
+[submodule "ocaml-h2"]
+	path = ocaml-h2
+	url = https://github.com/anmonteiro/ocaml-h2.git
+[submodule "piaf"]
+	path = piaf
+	url = https://github.com/anmonteiro/piaf.git
+[submodule "ocaml-ssl"]
+	path = ocaml-ssl
+	url = https://github.com/savonet/ocaml-ssl.git
+[submodule "lwt_ssl"]
+	path = lwt_ssl
+	url = https://github.com/ocsigen/lwt_ssl.git
