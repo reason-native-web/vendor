@@ -16,7 +16,7 @@
     "ocaml": ">=4.2.0",
     "@opam/dune": ">=2.0.0",
     "@opam/base-unix": "*",
-    "@opam/conf-libssl": "*",
+    "@opam/conf-libssl": "esy-packages/esy-openssl:package.json#b7eab4ff97f6e61ec4523e771176e3aadc25cdd8",
     "@opam/dune-configurator": "*",
     "pkg-config": "esy-ocaml/yarn-pkg-config"
   }
