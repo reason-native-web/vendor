@@ -1,18 +1,23 @@
 {
   "name": "@reason-native-web/ssl",
-  "version": "0.5.9-dev.1",
+  "version": "0.5.9-dev.2",
   "license": "GNU General Public License v2.0",
   "homepage": "https://github.com/reason-native-web/vendor",
   "bugs": { "url": "https://github.com/reason-native-web/vendor/issues" },
   "esy": {
-    "build": "dune build --only-packages=ssl --profile=release -j 4 --root=./ocaml-ssl",
-    "install": "esy-installer #{self.target_dir / 'default' / 'ssl.install'}"
+    "build": "dune build --only-packages=ssl --promote-install-files --profile=release -j 4 --root=./ocaml-ssl",
+    "install": "esy-installer #{self.target_dir / 'default' / 'ssl.install'}",
+    "buildEnv": {
+      "CFLAGS": "-I$OPENSSL_INCLUDE_PATH $CFLAGS",
+      "LDFLAGS": "-L$LD_LIBRARY_PATH $LDFLAGS"
+    }
   },
   "dependencies": {
     "ocaml": ">=4.2.0",
     "@opam/dune": ">=2.0.0",
     "@opam/base-unix": "*",
-    "@opam/conf-libssl": "*",
-    "@opam/dune-configurator": "*"
+    "@opam/conf-libssl": "esy-packages/esy-openssl:package.json#b7eab4ff97f6e61ec4523e771176e3aadc25cdd8",
+    "@opam/dune-configurator": "*",
+    "pkg-config": "esy-ocaml/yarn-pkg-config"
   }
 }

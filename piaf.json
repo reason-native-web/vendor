@@ -1,6 +1,6 @@
 {
   "name": "@reason-native-web/piaf",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "BSD-3-clause",
   "homepage": "https://github.com/reason-native-web/vendor",
   "bugs": { "url": "https://github.com/reason-native-web/vendor/issues" },
@@ -18,7 +18,7 @@
     "@opam/logs": "*",
     "@opam/lwt": "*",
     "@opam/conf-libssl": "*",
-    "@reason-native-web/ssl": "0.5.9-dev.1",
+    "@reason-native-web/ssl": "0.5.9-dev.2",
     "@reason-native-web/lwt_ssl": "*",
     "@opam/uri": "*",
     "@opam/magic-mime": "*"
