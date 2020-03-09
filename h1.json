@@ -1,6 +1,6 @@
 {
   "name": "@reason-native-web/h1",
-  "version": "1.0.0001",
+  "version": "1.0.1",
   "license": "BSD-3-clause",
   "homepage": "https://github.com/reason-native-web/vendor",
   "bugs": { "url": "https://github.com/reason-native-web/vendor/issues" },
