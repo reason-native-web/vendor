@@ -1,6 +1,6 @@
 {
   "name": "@reason-native-web/h1",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "BSD-3-clause",
   "homepage": "https://github.com/reason-native-web/vendor",
   "bugs": { "url": "https://github.com/reason-native-web/vendor/issues" },
@@ -8,9 +8,7 @@
     "build": "dune build --only-packages=httpaf --profile=release -j 4 --root=./httpaf",
     "install": "esy-installer #{self.target_dir / 'default' / 'httpaf.install'}"
   },
-  "files": [
-    "httpaf"
-  ],
+  "files": ["httpaf"],
   "dependencies": {
     "ocaml": ">=4.3.0",
     "@opam/dune": ">=1.5.0",
