@@ -8,6 +8,9 @@
     "build": "dune build --only-packages=h2 --profile=release -j 4 --root=./ocaml-h2",
     "install": "esy-installer #{self.target_dir / 'default' / 'h2.install'}"
   },
+  "files": [
+    "ocaml-h2"
+  ],
   "dependencies": {
     "ocaml": ">=4.6.0",
     "@opam/dune": ">=1.5.0",
@@ -17,9 +20,6 @@
     "@opam/faraday": ">=0.6.1",
     "@opam/psq": "*",
     "@opam/hpack": "*",
-    "@reason-native-web/h1": "*"
-  },
-  "resolutions": {
-    "@reason-native-web/h1": "link:./h1.json"
+    "@reason-native-web/h1": "1.0.0-alpha.1"
   }
 }

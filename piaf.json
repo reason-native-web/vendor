@@ -1,6 +1,6 @@
 {
   "name": "@reason-native-web/piaf",
-  "version": "1.0.1",
+  "version": "1.0.1000",
   "license": "BSD-3-clause",
   "homepage": "https://github.com/reason-native-web/vendor",
   "bugs": { "url": "https://github.com/reason-native-web/vendor/issues" },
@@ -8,29 +8,20 @@
     "build": "dune build --only-packages=piaf --profile=release -j 4 --root=./piaf",
     "install": "esy-installer #{self.target_dir / 'default' / 'piaf.install'}"
   },
+  "files": [
+    "piaf"
+  ],
   "dependencies": {
     "ocaml": ">=4.3.0",
     "@opam/dune": ">=1.8.0",
     "@opam/ocaml-syntax-shims": "*",
     "@opam/bigstringaf": ">=0.5.0",
     "@reason-native-web/h1-lwt-unix": "~1.0.0",
-    "@reason-native-web/h2-lwt-unix": ">=0.5.0",
+    "@reason-native-web/h2-lwt-unix": "~0.5.0",
     "@opam/logs": "*",
     "@opam/lwt": "*",
-    "@opam/conf-libssl": "*",
-    "@reason-native-web/ssl": "0.5.9-dev.2",
     "@reason-native-web/lwt_ssl": "*",
     "@opam/uri": "*",
     "@opam/magic-mime": "*"
-  },
-  "resolutions": {
-    "@reason-native-web/h2-lwt-unix": "link:./h2-lwt-unix.json",
-    "@reason-native-web/h2-lwt": "link:./h2-lwt.json",
-    "@reason-native-web/h2": "link:./h2.json",
-    "@reason-native-web/h1-lwt-unix": "link:./h1-lwt-unix.json",
-    "@reason-native-web/h1-lwt": "link:./h1-lwt.json",
-    "@reason-native-web/h1": "link:./h1.json",
-    "@reason-native-web/ssl": "link:./ssl.json",
-    "@reason-native-web/lwt_ssl": "link:./lwt_ssl.json"
   }
 }
