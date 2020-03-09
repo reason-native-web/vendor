@@ -1,6 +1,6 @@
 {
   "name": "@reason-native-web/h2-lwt",
-  "version": "0.5.0",
+  "version": "0.5.0001",
   "license": "BSD-3-clause",
   "homepage": "https://github.com/reason-native-web/vendor",
   "bugs": { "url": "https://github.com/reason-native-web/vendor/issues" },
@@ -8,12 +8,10 @@
     "build": "dune build --only-packages=h2-lwt --profile=release -j 4 --root=./ocaml-h2",
     "install": "esy-installer #{self.target_dir / 'default' / 'h2-lwt.install'}"
   },
-  "files": [
-    "ocaml-h2"
-  ],
+  "files": ["ocaml-h2"],
   "dependencies": {
     "ocaml": ">=4.6.0",
-    "@reason-native-web/h2": "0.5.0",
+    "@reason-native-web/h2": ">=0.5.0",
     "@opam/dune": ">=1.5.0",
     "@opam/lwt": "*"
   }

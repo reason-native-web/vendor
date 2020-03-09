@@ -1,6 +1,6 @@
 {
   "name": "@reason-native-web/piaf",
-  "version": "1.0.1000",
+  "version": "1.0.1002",
   "license": "BSD-3-clause",
   "homepage": "https://github.com/reason-native-web/vendor",
   "bugs": { "url": "https://github.com/reason-native-web/vendor/issues" },
@@ -8,9 +8,7 @@
     "build": "dune build --only-packages=piaf --profile=release -j 4 --root=./piaf",
     "install": "esy-installer #{self.target_dir / 'default' / 'piaf.install'}"
   },
-  "files": [
-    "piaf"
-  ],
+  "files": ["piaf"],
   "dependencies": {
     "ocaml": ">=4.3.0",
     "@opam/dune": ">=1.8.0",
@@ -20,7 +18,7 @@
     "@reason-native-web/h2-lwt-unix": "~0.5.0",
     "@opam/logs": "*",
     "@opam/lwt": "*",
-    "@reason-native-web/lwt_ssl": "*",
+    "@reason-native-web/lwt_ssl": ">=1.1.3000",
     "@opam/uri": "*",
     "@opam/magic-mime": "*"
   }
