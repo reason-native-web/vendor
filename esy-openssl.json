@@ -1,9 +1,9 @@
 {
   "name": "@reason-native-web/esy-openssl",
-  "version": "1.1.1003",
+  "version": "1.1.1004",
   "description": "Mirror of OpenSSL",
   "license": "Apache 2.0",
-  "files": ["openssl"],
+  "files": ["openssl", "openssl-certs"],
   "esy": {
     "build": [
       [
@@ -29,7 +29,7 @@
       [
         "bash",
         "-c",
-        "mv openssl/apps/cert.pem #{self.install / 'ssl'}"
+        "mv openssl-certs/cert.pem #{self.install / 'ssl'}"
       ]
     ],
     "buildsInSource": true,
