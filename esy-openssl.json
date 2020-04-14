@@ -9,11 +9,6 @@
       [
         "bash",
         "-c",
-        "#{os == 'windows' ? '(cd openssl; patch -p1) < openssl-1.1.1d-mingw.patch' : 'true'}"
-      ],
-      [
-        "bash",
-        "-c",
         "#{os == 'windows' ? './openssl/configure mingw64 --prefix=$cur__install --openssldir=$cur__install/ssl --cross-compile-prefix=x86_64-w64-mingw32-' : './openssl/config --prefix=$cur__install --openssldir=$cur__install/ssl'}"
       ],
       [
