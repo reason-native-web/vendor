@@ -13,3 +13,6 @@
 [submodule "lwt_ssl"]
 	path = lwt_ssl
 	url = https://github.com/ocsigen/lwt_ssl.git
+[submodule "openssl"]
+	path = openssl
+	url = https://github.com/openssl/openssl.git
