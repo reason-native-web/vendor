@@ -52,6 +52,8 @@ jobs:
             npm_version=$(npm view "$package_name" version 2> /dev/null || echo 0)
             if [ "$npm_version" != "$version" ]
             then
+              # Sleep to ensure that previous release propagated through the registry
+              sleep 10
               esy
               npm publish --access public
             fi

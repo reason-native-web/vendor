@@ -1,6 +1,6 @@
 {
   "name": "@reason-native-web/esy-openssl",
-  "version": "1.1.1002",
+  "version": "1.1.1003",
   "description": "Mirror of OpenSSL",
   "license": "Apache 2.0",
   "files": ["openssl"],
@@ -35,7 +35,7 @@
     "buildsInSource": true,
     "exportedEnv": {
       "LD_LIBRARY_PATH": {
-        "val": "#{self.lib : $LD_LIBRARY_PATH}",
+        "val": "#{self.lib}:$LD_LIBRARY_PATH",
         "scope": "global"
       },
       "OPENSSL_LIB_PATH": {
