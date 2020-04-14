@@ -19,6 +19,6 @@
     "@opam/base-unix": "*",
     "@opam/dune-configurator": "*",
     "@reason-native-web/esy-openssl": ">=1.1.1002",
-    "pkg-config": "esy-ocaml/yarn-pkg-config"
+    "@opam/conf-pkg-config": "*"
   }
 }
