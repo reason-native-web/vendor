@@ -14,6 +14,6 @@
     "@opam/dune": ">=2.0.0",
     "@opam/base-unix": "*",
     "@opam/lwt": ">=3.0.0",
-    "@reason-native-web/ssl": ">=0.5.9004"
+    "@reason-native-web/ssl": ">=0.5.9005"
   }
 }

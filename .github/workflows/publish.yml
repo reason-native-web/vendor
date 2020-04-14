@@ -24,6 +24,7 @@ jobs:
         run: |
           set -e
           packages=(
+            esy-openssl
             ssl
             lwt_ssl
             h1

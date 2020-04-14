@@ -1,6 +1,6 @@
 {
   "name": "@reason-native-web/ssl",
-  "version": "0.5.9004",
+  "version": "0.5.9005",
   "license": "GNU General Public License v2.0",
   "homepage": "https://github.com/reason-native-web/vendor",
   "bugs": { "url": "https://github.com/reason-native-web/vendor/issues" },
@@ -18,7 +18,7 @@
     "@opam/dune": ">=2.0.0",
     "@opam/base-unix": "*",
     "@opam/dune-configurator": "*",
-    "@reason-native-web/esy-openssl": "1.1.1001",
+    "@reason-native-web/esy-openssl": ">=1.1.1002",
     "pkg-config": "esy-ocaml/yarn-pkg-config"
   }
 }
