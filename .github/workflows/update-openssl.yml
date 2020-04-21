@@ -1,0 +1,36 @@
+name: Update OpenSSL
+
+on:
+  schedule:
+    - cron:  '0 0/2 * * *'
+  repository_dispatch:
+    types: update-openssl
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+        with:
+          fetch-depth: 1
+          ref: master
+          submodules: true
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 12
+          registry-url: https://registry.npmjs.org/
+      - name: Check for latest version
+        run: node .github/workflows/update-ssl.js
+      - name: Check if OpenSSL is up-to-date.
+        run: git diff --exit-code
+      - name: Push if it is not
+        if: failure()
+        run: |
+          git remote set-url --push origin https://$GITHUB_ACTOR:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY
+          git config user.name "Github Runner"
+          git config user.email "runner@runner.github.com"
+          git commit -am "Update OpenSSL version"
+          git status
+          git push origin HEAD:$GITHUB_REF
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
