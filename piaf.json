@@ -1,6 +1,6 @@
 {
   "name": "@reason-native-web/piaf",
-  "version": "1.0.2000",
+  "version": "1.1.0",
   "license": "BSD-3-clause",
   "homepage": "https://github.com/reason-native-web/vendor",
   "bugs": { "url": "https://github.com/reason-native-web/vendor/issues" },
@@ -14,12 +14,13 @@
     "@opam/dune": ">=1.8.0",
     "@opam/ocaml-syntax-shims": "*",
     "@opam/bigstringaf": ">=0.5.0",
-    "@reason-native-web/h1-lwt-unix": "~1.1.0",
-    "@reason-native-web/h2-lwt-unix": "~0.5.1001",
+    "@reason-native-web/h1-lwt-unix": "^1.2.0",
+    "@reason-native-web/h2-lwt-unix": "^0.6.0",
     "@opam/logs": "*",
     "@opam/lwt": "*",
     "@reason-native-web/lwt_ssl": ">=1.1.3000",
     "@opam/uri": "*",
-    "@opam/magic-mime": "*"
+    "@opam/magic-mime": "*",
+    "@opam/gluten-lwt-unix": ">=0.2.0"
   }
 }
