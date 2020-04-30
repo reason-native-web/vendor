@@ -28,6 +28,9 @@ jobs:
             ssl
             lwt_ssl
             h1
+            gluten
+            gluten-lwt
+            gluten-lwt-unix
             h1-lwt
             h1-lwt-unix
             h2
@@ -61,4 +64,3 @@ jobs:
           done
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NODE_AUTH_TOKEN }}
-

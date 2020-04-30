@@ -14,7 +14,6 @@
     "@opam/faraday-lwt-unix": "*",
     "@reason-native-web/h2-lwt": "^0.6.0",
     "@opam/dune": ">=1.7.0",
-    "@reason-native-web/lwt_ssl": ">=1.1.3000",
     "@opam/lwt": "*",
     "@reason-native-web/gluten-lwt-unix": ">=0.2.0"
   }
