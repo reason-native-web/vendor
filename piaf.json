@@ -21,6 +21,6 @@
     "@reason-native-web/lwt_ssl": ">=1.1.3000",
     "@opam/uri": "*",
     "@opam/magic-mime": "*",
-    "@opam/gluten-lwt-unix": ">=0.2.0"
+    "@reason-native-web/gluten-lwt-unix": ">=0.2.0"
   }
 }

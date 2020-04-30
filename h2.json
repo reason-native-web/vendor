@@ -11,7 +11,7 @@
   "files": ["ocaml-h2"],
   "dependencies": {
     "ocaml": ">=4.6.0",
-    "@opam/dune": ">=1.5.0",
+    "@opam/dune": ">=1.7.0",
     "@opam/base64": "*",
     "@opam/bigstringaf": ">=0.4.0",
     "@opam/angstrom": ">=0.9.0",
