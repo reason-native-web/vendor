@@ -16,3 +16,6 @@
 [submodule "openssl"]
 	path = openssl
 	url = https://github.com/openssl/openssl.git
+[submodule "gluten"]
+	path = gluten
+	url = git@github.com:anmonteiro/gluten.git
