@@ -1,0 +1,22 @@
+{
+  "name": "@reason-native-web/websocketaf-lwt",
+  "version": "1.0.0",
+  "license": "BSD-3-clause",
+  "homepage": "https://github.com/reason-native-web/vendor",
+  "bugs": { "url": "https://github.com/reason-native-web/vendor/issues" },
+  "esy": {
+    "build": "dune build --only-packages=websocketaf-lwt --root=./websocketaf --profile=release -j 4",
+    "install": "esy-installer #{self.target_dir / 'default' / 'websocketaf-lwt.install'}"
+  },
+  "files": ["websocketaf"],
+  "dependencies": {
+    "ocaml": ">=4.3.0",
+    "@opam/dune": ">=1.7.0",
+    "@opam/lwt": "*",
+    "@opam/base64": ">=3.0.0",
+    "@opam/digestif": "*",
+    "@opam/faraday-lwt": "*",
+    "@reason-native-web/websocketaf": "^1.0.0",
+    "@reason-native-web/gluten-lwt": ">=0.2.0"
+  }
+}

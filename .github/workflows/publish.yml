@@ -36,6 +36,9 @@ jobs:
             h2
             h2-lwt
             h2-lwt-unix
+            websocketaf
+            websocketaf-lwt
+            websocketaf-lwt-unix
             piaf
           )
           extract() {
