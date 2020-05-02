@@ -1,6 +1,6 @@
 {
   "name": "@reason-native-web/h2",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "license": "BSD-3-clause",
   "homepage": "https://github.com/reason-native-web/vendor",
   "bugs": { "url": "https://github.com/reason-native-web/vendor/issues" },
@@ -13,9 +13,9 @@
     "ocaml": ">=4.6.0",
     "@opam/dune": ">=1.7.0",
     "@opam/base64": "*",
-    "@opam/bigstringaf": ">=0.4.0",
-    "@opam/angstrom": ">=0.9.0",
-    "@opam/faraday": ">=0.6.1",
+    "@opam/bigstringaf": ">=0.5.0",
+    "@opam/angstrom": ">=0.14.0",
+    "@opam/faraday": ">=0.5.0",
     "@opam/psq": "*",
     "@opam/hpack": "*",
     "@reason-native-web/h1": ">=1.0.0"
