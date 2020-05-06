@@ -1,6 +1,6 @@
 # Vendor
 
-This repo is used for publish packages to npm that are either unreleased or to add things as dependencies instead of resolutions.
+This repo is used for publishing packages to npm that are either unreleased or depend on unreleased packages. This removes the need for resolutions in users' package.json.
 
 ## Add a package
 
@@ -27,4 +27,4 @@ Add build instructions under `esy`:
 
 Add a `files` key that points to the folder where it's cloned, in this case : `"files": ["websocketaf"],`
 
-Update `publish.yml` with the added libraries in the correct order. The order is important if a library depends on another library since they will be published in order to be able to build the next.
+Update `publish.yml` with the added libraries in the topological order. The order is important if a library depends on another library since they will be published in order to be able to build the next.
