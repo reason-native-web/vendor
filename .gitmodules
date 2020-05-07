@@ -19,3 +19,6 @@
 [submodule "gluten"]
 	path = gluten
 	url = https://github.com/anmonteiro/gluten.git
+[submodule "websocketaf"]
+	path = websocketaf
+	url = https://github.com/anmonteiro/websocketaf.git
