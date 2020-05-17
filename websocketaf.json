@@ -17,6 +17,6 @@
     "@opam/angstrom": ">=0.14.0",
     "@opam/faraday": ">=0.5.0",
     "@opam/result": "*",
-    "@reason-native-web/gluten": "^0.2.0"
+    "@opam/gluten": "^0.2.1"
   }
 }

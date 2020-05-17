@@ -16,6 +16,6 @@
     "@opam/faraday-lwt-unix": "*",
     "@reason-native-web/websocketaf": "^1.0.0",
     "@reason-native-web/websocketaf-lwt": "^1.0.0",
-    "@reason-native-web/gluten-lwt-unix": ">=0.2.0"
+    "@opam/gluten-lwt-unix": ">=0.2.1"
   }
 }

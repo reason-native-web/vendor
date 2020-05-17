@@ -17,6 +17,6 @@
     "@opam/digestif": "*",
     "@opam/faraday-lwt": "*",
     "@reason-native-web/websocketaf": "^1.0.0",
-    "@reason-native-web/gluten-lwt": ">=0.2.0"
+    "@opam/gluten-lwt": ">=0.2.1"
   }
 }
