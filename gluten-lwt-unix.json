@@ -1,0 +1,21 @@
+{
+  "name": "@reason-native-web/gluten-lwt-unix",
+  "version": "1.2.0",
+  "license": "BSD-3-clause",
+  "homepage": "https://github.com/reason-native-web/vendor",
+  "bugs": { "url": "https://github.com/reason-native-web/vendor/issues" },
+  "esy": {
+    "build": "dune build --only-packages=gluten-lwt-unix --root=./gluten --profile=release -j 4",
+    "install": "esy-installer #{self.target_dir / 'default' / 'gluten-lwt-unix.install'}"
+  },
+  "files": ["gluten"],
+  "dependencies": {
+    "ocaml": ">=4.3.0",
+    "@opam/dune": ">=1.7.0",
+    "@opam/lwt": "*",
+    "@opam/faraday-lwt-unix": ">=0.5.0",
+    "@reason-native-web/lwt_ssl": ">=1.1.3000",
+    "@reason-native-web/gluten": ">=0.2.0",
+    "@reason-native-web/gluten-lwt": ">=0.2.0"
+  }
+}

@@ -15,6 +15,6 @@
     "@reason-native-web/h1-lwt": "^1.2.1000",
     "@opam/lwt": "*",
     "@opam/faraday-lwt-unix": "*",
-    "@opam/gluten-lwt-unix": ">=0.2.1"
+    "@reason-native-web/gluten-lwt-unix": ">=0.2.0"
   }
 }
