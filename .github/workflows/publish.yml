@@ -27,6 +27,9 @@ jobs:
             esy-openssl
             ssl
             lwt_ssl
+            gluten
+            gluten-lwt
+            gluten-lwt-unix
             h1
             h1-lwt
             h1-lwt-unix

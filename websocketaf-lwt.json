@@ -1,6 +1,6 @@
 {
   "name": "@reason-native-web/websocketaf-lwt",
-  "version": "1.0.2000",
+  "version": "1.0.2001",
   "license": "BSD-3-clause",
   "homepage": "https://github.com/reason-native-web/vendor",
   "bugs": { "url": "https://github.com/reason-native-web/vendor/issues" },

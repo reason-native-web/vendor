@@ -1,6 +1,6 @@
 {
   "name": "@reason-native-web/h1-lwt-unix",
-  "version": "1.2.1000",
+  "version": "1.2.1001",
   "license": "BSD-3-clause",
   "homepage": "https://github.com/reason-native-web/vendor",
   "bugs": { "url": "https://github.com/reason-native-web/vendor/issues" },
@@ -15,6 +15,6 @@
     "@reason-native-web/h1-lwt": "^1.2.1000",
     "@opam/lwt": "*",
     "@opam/faraday-lwt-unix": "*",
-    "@reason-native-web/gluten-lwt-unix": ">=0.2.0"
+    "@reason-native-web/gluten-lwt-unix": "^0.2.1"
   }
 }

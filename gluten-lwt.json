@@ -1,6 +1,6 @@
 {
   "name": "@reason-native-web/gluten-lwt",
-  "version": "1.2.0",
+  "version": "0.2.1",
   "license": "BSD-3-clause",
   "homepage": "https://github.com/reason-native-web/vendor",
   "bugs": { "url": "https://github.com/reason-native-web/vendor/issues" },
@@ -13,6 +13,6 @@
     "ocaml": ">=4.3.0",
     "@opam/dune": ">=1.7.0",
     "@opam/lwt": "*",
-    "@reason-native-web/gluten": "^0.2.0"
+    "@reason-native-web/gluten": "^0.2.1"
   }
 }
