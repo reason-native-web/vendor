@@ -1,6 +1,6 @@
 {
   "name": "@reason-native-web/h2",
-  "version": "0.6.1",
+  "version": "0.6.1000",
   "license": "BSD-3-clause",
   "homepage": "https://github.com/reason-native-web/vendor",
   "bugs": { "url": "https://github.com/reason-native-web/vendor/issues" },
@@ -18,6 +18,6 @@
     "@opam/faraday": ">=0.5.0",
     "@opam/psq": "*",
     "@opam/hpack": "*",
-    "@reason-native-web/h1": ">=1.0.0"
+    "@reason-native-web/h1": ">=1.2.1000"
   }
 }
