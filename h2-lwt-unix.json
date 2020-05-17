@@ -1,6 +1,6 @@
 {
   "name": "@reason-native-web/h2-lwt-unix",
-  "version": "0.6.0",
+  "version": "0.6.1000",
   "license": "BSD-3-clause",
   "homepage": "https://github.com/reason-native-web/vendor",
   "bugs": { "url": "https://github.com/reason-native-web/vendor/issues" },
@@ -12,7 +12,7 @@
   "dependencies": {
     "ocaml": ">=4.6.0",
     "@opam/faraday-lwt-unix": "*",
-    "@reason-native-web/h2-lwt": "^0.6.0",
+    "@reason-native-web/h2-lwt": "^0.6.1000",
     "@opam/dune": ">=1.7.0",
     "@opam/lwt": "*",
     "@opam/gluten-lwt-unix": ">=0.2.1"
