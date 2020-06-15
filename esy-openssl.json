@@ -12,7 +12,7 @@
       [
         "bash",
         "-c",
-        "#{os == 'windows' ? './openssl/configure mingw64 --prefix=$cur__install --openssldir=$cur__install/ssl --cross-compile-prefix=x86_64-w64-mingw32-' : './openssl/config --prefix=$cur__install --openssldir=$cur__install/ssl'}"
+        "#{os == 'windows' ? './openssl/configure mingw64 --prefix=$cur__install --openssldir=$cur__install/ssl --cross-compile-prefix=x86_64-w64-mingw32-' : './openssl/config --prefix=$cur__install'}"
       ],
       [
         "make",
