@@ -14,7 +14,7 @@
     "@opam/dune": ">=1.8.0",
     "@opam/ocaml-syntax-shims": "*",
     "@opam/bigstringaf": ">=0.5.0",
-    "@reason-native-web/h1-lwt-unix": "^1.2.1000",
+    "@reason-native-web/h1-lwt-unix": "^1.2.2000",
     "@reason-native-web/h2-lwt-unix": "^0.6.1000",
     "@opam/logs": "*",
     "@opam/lwt": "*",
