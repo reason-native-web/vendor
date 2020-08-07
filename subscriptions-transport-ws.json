@@ -1,0 +1,19 @@
+{
+  "name": "@reason-native-web/subscriptions-transport-ws",
+  "version": "1.2.0",
+  "license": "BSD-3-clause",
+  "homepage": "https://github.com/reason-native-web/vendor",
+  "bugs": { "url": "https://github.com/reason-native-web/vendor/issues" },
+  "esy": {
+    "build": "dune build --only-packages=subscriptions-transport-ws --profile=release -j 4 --root=./ocaml-subscriptions-transport-ws",
+    "install": "esy-installer #{self.target_dir / 'default' / 'subscriptions-transport-ws.install'}"
+  },
+  "files": ["ocaml-subscriptions-transport-ws"],
+  "dependencies": {
+    "ocaml": ">=4.3.0",
+    "@opam/dune": ">=1.7.0",
+    "@opam/graphql": "*",
+    "@opam/graphql_parser": "*",
+    "@reason-native-web/websocketaf": "~1.2.0"
+  }
+}
