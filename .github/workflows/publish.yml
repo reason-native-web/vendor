@@ -40,6 +40,7 @@ jobs:
             websocketaf-lwt
             websocketaf-lwt-unix
             piaf
+            subscriptions-transport-ws
           )
           extract() {
             # Field's key/value should be on their own line

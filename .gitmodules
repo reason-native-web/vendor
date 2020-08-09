@@ -22,3 +22,6 @@
 [submodule "gluten"]
 	path = gluten
 	url = https://github.com/anmonteiro/gluten
+[submodule "ocaml-subscriptions-transport-ws"]
+	path = ocaml-subscriptions-transport-ws
+	url = https://github.com/anmonteiro/ocaml-subscriptions-transport-ws
