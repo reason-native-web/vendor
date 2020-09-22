@@ -1,6 +1,6 @@
 {
   "name": "@reason-native-web/esy-openssl",
-  "version": "1.1.1006",
+  "version": "1.1.1007",
   "description": "Mirror of OpenSSL",
   "license": "Apache 2.0",
   "files": [
@@ -63,5 +63,5 @@
     "@opam/conf-autoconf": "*",
     "@opam/conf-pkg-config": "*"
   },
-  "opensslTag": "OpenSSL_1_1_1g"
+  "opensslTag": "OpenSSL_1_1_1h"
 }
